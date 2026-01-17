@@ -1,0 +1,1 @@
+/home/lota/ros2_ws/src/build/my_robot_config/ament_cmake_environment_hooks/local_setup.zsh

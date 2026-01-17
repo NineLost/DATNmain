@@ -1,0 +1,30 @@
+controller_server:
+  ros__parameters:
+    controller_frequency: 20.0
+
+    controller_plugins: ["FollowPath"]
+
+    FollowPath:
+      plugin: "dwb_core::DWBLocalPlanner"
+      transform_tolerance: 0.1
+
+      critics: ["ObstacleFootprint", "PathAlign", "GoalAlign", "PathDist", "GoalDist"]
+
+    # ===== CRITICS PHẢI Ở ĐÂY =====
+    ObstacleFootprint:
+      scale: 0.01
+
+    PathAlign:
+      scale: 32.0
+      forward_point_distance: 0.325
+
+    GoalAlign:
+      scale: 24.0
+      forward_point_distance: 0.325
+
+    PathDist:
+      scale: 32.0
+
+    GoalDist:
+      scale: 24.0
+

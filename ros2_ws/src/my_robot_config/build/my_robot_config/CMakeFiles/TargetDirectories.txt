@@ -1,0 +1,9 @@
+/home/lota/ros2_ws/src/my_robot_config/build/my_robot_config/CMakeFiles/uninstall.dir
+/home/lota/ros2_ws/src/my_robot_config/build/my_robot_config/CMakeFiles/my_robot_config_uninstall.dir
+/home/lota/ros2_ws/src/my_robot_config/build/my_robot_config/CMakeFiles/test.dir
+/home/lota/ros2_ws/src/my_robot_config/build/my_robot_config/CMakeFiles/edit_cache.dir
+/home/lota/ros2_ws/src/my_robot_config/build/my_robot_config/CMakeFiles/rebuild_cache.dir
+/home/lota/ros2_ws/src/my_robot_config/build/my_robot_config/CMakeFiles/list_install_components.dir
+/home/lota/ros2_ws/src/my_robot_config/build/my_robot_config/CMakeFiles/install.dir
+/home/lota/ros2_ws/src/my_robot_config/build/my_robot_config/CMakeFiles/install/local.dir
+/home/lota/ros2_ws/src/my_robot_config/build/my_robot_config/CMakeFiles/install/strip.dir

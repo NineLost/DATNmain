@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating dual_lidar_tools.egg-info
+writing dual_lidar_tools.egg-info/PKG-INFO
+writing dependency_links to dual_lidar_tools.egg-info/dependency_links.txt
+writing entry points to dual_lidar_tools.egg-info/entry_points.txt
+writing requirements to dual_lidar_tools.egg-info/requires.txt
+writing top-level names to dual_lidar_tools.egg-info/top_level.txt
+writing manifest file 'dual_lidar_tools.egg-info/SOURCES.txt'
+reading manifest file 'dual_lidar_tools.egg-info/SOURCES.txt'
+writing manifest file 'dual_lidar_tools.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/lota/ros2_ws/src/install/dual_lidar_tools/lib/python3.10/site-packages/dual-lidar-tools.egg-link (link to .)
+Installing dual_lidar_merger script to /home/lota/ros2_ws/src/install/dual_lidar_tools/lib/dual_lidar_tools
+
+Installed /home/lota/ros2_ws/src/build/dual_lidar_tools
+running symlink_data
+creating /home/lota/ros2_ws/src/install/dual_lidar_tools/share/ament_index
+creating /home/lota/ros2_ws/src/install/dual_lidar_tools/share/ament_index/resource_index
+creating /home/lota/ros2_ws/src/install/dual_lidar_tools/share/ament_index/resource_index/packages
+symbolically linking /home/lota/ros2_ws/src/build/dual_lidar_tools/resource/dual_lidar_tools -> /home/lota/ros2_ws/src/install/dual_lidar_tools/share/ament_index/resource_index/packages
+symbolically linking /home/lota/ros2_ws/src/build/dual_lidar_tools/package.xml -> /home/lota/ros2_ws/src/install/dual_lidar_tools/share/dual_lidar_tools

@@ -1,0 +1,21 @@
+[2.025s] Invoking command in '/home/lota/ros2_ws/src/dual_lidar_tools': PYTHONPATH=/home/lota/ros2_ws/build/dual_lidar_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lota/ros2_ws/install/dual_lidar_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dual_lidar_tools build --build-base /home/lota/ros2_ws/build/dual_lidar_tools/build install --record /home/lota/ros2_ws/build/dual_lidar_tools/install.log --single-version-externally-managed install_data
+[2.738s] running egg_info
+[2.740s] writing ../../build/dual_lidar_tools/dual_lidar_tools.egg-info/PKG-INFO
+[2.743s] writing dependency_links to ../../build/dual_lidar_tools/dual_lidar_tools.egg-info/dependency_links.txt
+[2.743s] writing entry points to ../../build/dual_lidar_tools/dual_lidar_tools.egg-info/entry_points.txt
+[2.744s] writing requirements to ../../build/dual_lidar_tools/dual_lidar_tools.egg-info/requires.txt
+[2.744s] writing top-level names to ../../build/dual_lidar_tools/dual_lidar_tools.egg-info/top_level.txt
+[2.754s] reading manifest file '../../build/dual_lidar_tools/dual_lidar_tools.egg-info/SOURCES.txt'
+[2.754s] writing manifest file '../../build/dual_lidar_tools/dual_lidar_tools.egg-info/SOURCES.txt'
+[2.756s] running build
+[2.756s] running build_py
+[2.756s] running install
+[2.757s] running install_lib
+[2.762s] running install_data
+[2.762s] running install_egg_info
+[2.770s] removing '/home/lota/ros2_ws/install/dual_lidar_tools/lib/python3.10/site-packages/dual_lidar_tools-0.0.0-py3.10.egg-info' (and everything under it)
+[2.772s] Copying ../../build/dual_lidar_tools/dual_lidar_tools.egg-info to /home/lota/ros2_ws/install/dual_lidar_tools/lib/python3.10/site-packages/dual_lidar_tools-0.0.0-py3.10.egg-info
+[2.773s] running install_scripts
+[2.828s] Installing dual_lidar_merger script to /home/lota/ros2_ws/install/dual_lidar_tools/lib/dual_lidar_tools
+[2.829s] writing list of installed files to '/home/lota/ros2_ws/build/dual_lidar_tools/install.log'
+[2.920s] Invoked command in '/home/lota/ros2_ws/src/dual_lidar_tools' returned '0': PYTHONPATH=/home/lota/ros2_ws/build/dual_lidar_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lota/ros2_ws/install/dual_lidar_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dual_lidar_tools build --build-base /home/lota/ros2_ws/build/dual_lidar_tools/build install --record /home/lota/ros2_ws/build/dual_lidar_tools/install.log --single-version-externally-managed install_data

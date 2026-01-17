@@ -1,0 +1,17 @@
+[3.448s] Invoking command in '/home/lota/ros2_ws/build/imu_hwt911': PYTHONPATH=/home/lota/ros2_ws/build/imu_hwt911/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lota/ros2_ws/build/imu_hwt911/build --no-deps symlink_data
+[4.865s] running develop
+[5.935s] running egg_info
+[5.936s] writing imu_hwt911.egg-info/PKG-INFO
+[5.939s] writing dependency_links to imu_hwt911.egg-info/dependency_links.txt
+[5.940s] writing entry points to imu_hwt911.egg-info/entry_points.txt
+[5.943s] writing requirements to imu_hwt911.egg-info/requires.txt
+[5.944s] writing top-level names to imu_hwt911.egg-info/top_level.txt
+[5.961s] reading manifest file 'imu_hwt911.egg-info/SOURCES.txt'
+[5.973s] writing manifest file 'imu_hwt911.egg-info/SOURCES.txt'
+[5.979s] running build_ext
+[5.982s] Creating /home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages/imu-hwt911.egg-link (link to .)
+[5.995s] Installing hwt911_node script to /home/lota/ros2_ws/install/imu_hwt911/lib/imu_hwt911
+[5.995s] 
+[5.995s] Installed /home/lota/ros2_ws/build/imu_hwt911
+[5.995s] running symlink_data
+[6.253s] Invoked command in '/home/lota/ros2_ws/build/imu_hwt911' returned '0': PYTHONPATH=/home/lota/ros2_ws/build/imu_hwt911/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lota/ros2_ws/build/imu_hwt911/build --no-deps symlink_data

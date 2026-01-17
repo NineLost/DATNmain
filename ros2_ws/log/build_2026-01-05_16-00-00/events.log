@@ -1,0 +1,254 @@
+[0.000000] (-) TimerEvent: {}
+[0.002637] (dual_lidar_tools) JobQueued: {'identifier': 'dual_lidar_tools', 'dependencies': OrderedDict()}
+[0.002793] (imu_hwt911) JobQueued: {'identifier': 'imu_hwt911', 'dependencies': OrderedDict()}
+[0.002869] (my_robot_config) JobQueued: {'identifier': 'my_robot_config', 'dependencies': OrderedDict()}
+[0.002931] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.002991] (dual_lidar_tools) JobStarted: {'identifier': 'dual_lidar_tools'}
+[0.046381] (imu_hwt911) JobStarted: {'identifier': 'imu_hwt911'}
+[0.099565] (-) TimerEvent: {}
+[0.204126] (-) TimerEvent: {}
+[0.306276] (-) TimerEvent: {}
+[0.409078] (-) TimerEvent: {}
+[0.510071] (-) TimerEvent: {}
+[0.611855] (-) TimerEvent: {}
+[0.713345] (-) TimerEvent: {}
+[0.814750] (-) TimerEvent: {}
+[0.916019] (-) TimerEvent: {}
+[1.016611] (-) TimerEvent: {}
+[1.118100] (-) TimerEvent: {}
+[1.219593] (-) TimerEvent: {}
+[1.321174] (-) TimerEvent: {}
+[1.422186] (-) TimerEvent: {}
+[1.523048] (-) TimerEvent: {}
+[1.624025] (-) TimerEvent: {}
+[1.727915] (-) TimerEvent: {}
+[1.829500] (-) TimerEvent: {}
+[1.930808] (-) TimerEvent: {}
+[2.031609] (-) TimerEvent: {}
+[2.134383] (-) TimerEvent: {}
+[2.235659] (-) TimerEvent: {}
+[2.337024] (-) TimerEvent: {}
+[2.442861] (-) TimerEvent: {}
+[2.546367] (-) TimerEvent: {}
+[2.648408] (-) TimerEvent: {}
+[2.750296] (-) TimerEvent: {}
+[2.853273] (-) TimerEvent: {}
+[2.954694] (-) TimerEvent: {}
+[3.059529] (-) TimerEvent: {}
+[3.160565] (-) TimerEvent: {}
+[3.262678] (-) TimerEvent: {}
+[3.365935] (-) TimerEvent: {}
+[3.467648] (-) TimerEvent: {}
+[3.569399] (-) TimerEvent: {}
+[3.672773] (-) TimerEvent: {}
+[3.774552] (-) TimerEvent: {}
+[3.877388] (-) TimerEvent: {}
+[3.919887] (dual_lidar_tools) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/lota/ros2_ws/build/dual_lidar_tools/build', '--no-deps', 'symlink_data'], 'cwd': '/home/lota/ros2_ws/build/dual_lidar_tools', 'env': {'LANGUAGE': 'en_US:', 'USER': 'lota', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lota/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lota', 'OLDPWD': '/home/lota/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'th_TH.UTF-8', 'SYSTEMD_EXEC_PID': '3046', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lota/ros2_ws/install:/home/lota/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lota', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lota', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lota-virtual-machine:@/tmp/.ICE-unix/1967,unix/lota-virtual-machine:/tmp/.ICE-unix/1967', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'th_TH.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d7bacb81_830e_43ca_b990_85ad42f32cb3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'th_TH.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.E9YLH3', 'LS_COLORS': 'di=1;36:ln=1;33:ex=1;32:fi=0', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lota/ros2_ws/install/rplidar_ros:/home/lota/ros2_ws/install/my_robot_config:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/home/lota/install/rplidar_ros:/home/lota/install/my_robot_config:/home/lota/install/dynamixel_sdk:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lota/ros2_ws/build/dual_lidar_tools', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lota/ros2_ws/build/dual_lidar_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lota/ros2_ws/install/dual_lidar_tools/lib/python3.10/site-packages:/home/lota/ros2_ws/build/imu_hwt911:/home/lota/ros2_ws/build/dual_lidar_tools:/home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages:/home/lota/ros2_ws/install/dual_lidar_tools/lib/python3.10/site-packages:/home/lota/install/rrt_planner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/lota/ros2_ws/install/rplidar_ros:/home/lota/ros2_ws/install/my_robot_config:/home/lota/install/rplidar_ros:/home/lota/install/my_robot_config:/home/lota/install/dynamixel_sdk'}, 'shell': False}
+[3.980142] (-) TimerEvent: {}
+[4.090807] (-) TimerEvent: {}
+[4.196610] (-) TimerEvent: {}
+[4.304317] (-) TimerEvent: {}
+[4.389546] (imu_hwt911) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/lota/ros2_ws/build/imu_hwt911/build', '--no-deps', 'symlink_data'], 'cwd': '/home/lota/ros2_ws/build/imu_hwt911', 'env': {'LANGUAGE': 'en_US:', 'USER': 'lota', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lota/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lota', 'OLDPWD': '/home/lota/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'th_TH.UTF-8', 'SYSTEMD_EXEC_PID': '3046', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lota/ros2_ws/install:/home/lota/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lota', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lota', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lota-virtual-machine:@/tmp/.ICE-unix/1967,unix/lota-virtual-machine:/tmp/.ICE-unix/1967', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'th_TH.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d7bacb81_830e_43ca_b990_85ad42f32cb3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'th_TH.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.E9YLH3', 'LS_COLORS': 'di=1;36:ln=1;33:ex=1;32:fi=0', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lota/ros2_ws/install/rplidar_ros:/home/lota/ros2_ws/install/my_robot_config:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/home/lota/install/rplidar_ros:/home/lota/install/my_robot_config:/home/lota/install/dynamixel_sdk:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lota/ros2_ws/build/imu_hwt911', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lota/ros2_ws/build/imu_hwt911/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages:/home/lota/ros2_ws/build/imu_hwt911:/home/lota/ros2_ws/build/dual_lidar_tools:/home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages:/home/lota/ros2_ws/install/dual_lidar_tools/lib/python3.10/site-packages:/home/lota/install/rrt_planner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/lota/ros2_ws/install/rplidar_ros:/home/lota/ros2_ws/install/my_robot_config:/home/lota/install/rplidar_ros:/home/lota/install/my_robot_config:/home/lota/install/dynamixel_sdk'}, 'shell': False}
+[4.404827] (-) TimerEvent: {}
+[4.506536] (-) TimerEvent: {}
+[4.610886] (-) TimerEvent: {}
+[4.714005] (-) TimerEvent: {}
+[4.819085] (-) TimerEvent: {}
+[4.923857] (-) TimerEvent: {}
+[5.028843] (-) TimerEvent: {}
+[5.134749] (-) TimerEvent: {}
+[5.240828] (-) TimerEvent: {}
+[5.342777] (-) TimerEvent: {}
+[5.444108] (-) TimerEvent: {}
+[5.546218] (-) TimerEvent: {}
+[5.649653] (-) TimerEvent: {}
+[5.752423] (-) TimerEvent: {}
+[5.835365] (dual_lidar_tools) StdoutLine: {'line': b'running develop\n'}
+[5.854125] (-) TimerEvent: {}
+[5.959568] (-) TimerEvent: {}
+[6.062160] (-) TimerEvent: {}
+[6.066498] (imu_hwt911) StdoutLine: {'line': b'running develop\n'}
+[6.163424] (-) TimerEvent: {}
+[6.266333] (-) TimerEvent: {}
+[6.368079] (-) TimerEvent: {}
+[6.469820] (-) TimerEvent: {}
+[6.574213] (-) TimerEvent: {}
+[6.682722] (-) TimerEvent: {}
+[6.784491] (-) TimerEvent: {}
+[6.819476] (dual_lidar_tools) StdoutLine: {'line': b'running egg_info\n'}
+[6.826390] (dual_lidar_tools) StdoutLine: {'line': b'writing dual_lidar_tools.egg-info/PKG-INFO\n'}
+[6.826750] (dual_lidar_tools) StdoutLine: {'line': b'writing dependency_links to dual_lidar_tools.egg-info/dependency_links.txt\n'}
+[6.826993] (dual_lidar_tools) StdoutLine: {'line': b'writing entry points to dual_lidar_tools.egg-info/entry_points.txt\n'}
+[6.827219] (dual_lidar_tools) StdoutLine: {'line': b'writing requirements to dual_lidar_tools.egg-info/requires.txt\n'}
+[6.827442] (dual_lidar_tools) StdoutLine: {'line': b'writing top-level names to dual_lidar_tools.egg-info/top_level.txt\n'}
+[6.849513] (dual_lidar_tools) StdoutLine: {'line': b"reading manifest file 'dual_lidar_tools.egg-info/SOURCES.txt'\n"}
+[6.855342] (dual_lidar_tools) StdoutLine: {'line': b"writing manifest file 'dual_lidar_tools.egg-info/SOURCES.txt'\n"}
+[6.860890] (dual_lidar_tools) StdoutLine: {'line': b'running build_ext\n'}
+[6.863005] (dual_lidar_tools) StdoutLine: {'line': b'Creating /home/lota/ros2_ws/install/dual_lidar_tools/lib/python3.10/site-packages/dual-lidar-tools.egg-link (link to .)\n'}
+[6.868797] (dual_lidar_tools) StdoutLine: {'line': b'Installing dual_lidar_merger script to /home/lota/ros2_ws/install/dual_lidar_tools/lib/dual_lidar_tools\n'}
+[6.870410] (dual_lidar_tools) StdoutLine: {'line': b'\n'}
+[6.870863] (dual_lidar_tools) StdoutLine: {'line': b'Installed /home/lota/ros2_ws/build/dual_lidar_tools\n'}
+[6.871206] (dual_lidar_tools) StdoutLine: {'line': b'running symlink_data\n'}
+[6.887956] (-) TimerEvent: {}
+[6.989809] (-) TimerEvent: {}
+[6.994793] (dual_lidar_tools) CommandEnded: {'returncode': 0}
+[7.075159] (imu_hwt911) StdoutLine: {'line': b'running egg_info\n'}
+[7.076065] (imu_hwt911) StdoutLine: {'line': b'writing imu_hwt911.egg-info/PKG-INFO\n'}
+[7.076427] (imu_hwt911) StdoutLine: {'line': b'writing dependency_links to imu_hwt911.egg-info/dependency_links.txt\n'}
+[7.087610] (imu_hwt911) StdoutLine: {'line': b'writing entry points to imu_hwt911.egg-info/entry_points.txt\n'}
+[7.088655] (imu_hwt911) StdoutLine: {'line': b'writing requirements to imu_hwt911.egg-info/requires.txt\n'}
+[7.089093] (imu_hwt911) StdoutLine: {'line': b'writing top-level names to imu_hwt911.egg-info/top_level.txt\n'}
+[7.089345] (imu_hwt911) StdoutLine: {'line': b"reading manifest file 'imu_hwt911.egg-info/SOURCES.txt'\n"}
+[7.094709] (imu_hwt911) StdoutLine: {'line': b"writing manifest file 'imu_hwt911.egg-info/SOURCES.txt'\n"}
+[7.095006] (-) TimerEvent: {}
+[7.103274] (imu_hwt911) StdoutLine: {'line': b'running build_ext\n'}
+[7.104213] (imu_hwt911) StdoutLine: {'line': b'Creating /home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages/imu-hwt911.egg-link (link to .)\n'}
+[7.105172] (dual_lidar_tools) JobEnded: {'identifier': 'dual_lidar_tools', 'rc': 0}
+[7.111072] (my_robot_config) JobStarted: {'identifier': 'my_robot_config'}
+[7.113671] (imu_hwt911) StdoutLine: {'line': b'Installing hwt911_node script to /home/lota/ros2_ws/install/imu_hwt911/lib/imu_hwt911\n'}
+[7.117136] (imu_hwt911) StdoutLine: {'line': b'\n'}
+[7.117986] (imu_hwt911) StdoutLine: {'line': b'Installed /home/lota/ros2_ws/build/imu_hwt911\n'}
+[7.118866] (imu_hwt911) StdoutLine: {'line': b'running symlink_data\n'}
+[7.151149] (my_robot_config) JobProgress: {'identifier': 'my_robot_config', 'progress': 'cmake'}
+[7.154630] (my_robot_config) JobProgress: {'identifier': 'my_robot_config', 'progress': 'build'}
+[7.157469] (my_robot_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lota/ros2_ws/build/my_robot_config', '--', '-j2', '-l2'], 'cwd': '/home/lota/ros2_ws/build/my_robot_config', 'env': OrderedDict([('LANGUAGE', 'en_US:'), ('USER', 'lota'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lota/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lota'), ('OLDPWD', '/home/lota/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('SYSTEMD_EXEC_PID', '3046'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lota/ros2_ws/install:/home/lota/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lota'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lota'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lota-virtual-machine:@/tmp/.ICE-unix/1967,unix/lota-virtual-machine:/tmp/.ICE-unix/1967'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d7bacb81_830e_43ca_b990_85ad42f32cb3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E9YLH3'), ('LS_COLORS', 'di=1;36:ln=1;33:ex=1;32:fi=0'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lota/ros2_ws/install/rplidar_ros:/home/lota/ros2_ws/install/my_robot_config:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/home/lota/install/rplidar_ros:/home/lota/install/my_robot_config:/home/lota/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lota/ros2_ws/build/my_robot_config'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lota/ros2_ws/build/imu_hwt911:/home/lota/ros2_ws/build/dual_lidar_tools:/home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages:/home/lota/ros2_ws/install/dual_lidar_tools/lib/python3.10/site-packages:/home/lota/install/rrt_planner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lota/ros2_ws/install/rplidar_ros:/home/lota/ros2_ws/install/my_robot_config:/home/lota/install/rplidar_ros:/home/lota/install/my_robot_config:/home/lota/install/dynamixel_sdk:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble')]), 'shell': False}
+[7.196399] (-) TimerEvent: {}
+[7.269222] (imu_hwt911) CommandEnded: {'returncode': 0}
+[7.311043] (-) TimerEvent: {}
+[7.370374] (imu_hwt911) JobEnded: {'identifier': 'imu_hwt911', 'rc': 0}
+[7.375624] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[7.409404] (my_robot_config) CommandEnded: {'returncode': 0}
+[7.411154] (-) TimerEvent: {}
+[7.414878] (my_robot_config) JobProgress: {'identifier': 'my_robot_config', 'progress': 'install'}
+[7.456628] (my_robot_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lota/ros2_ws/build/my_robot_config'], 'cwd': '/home/lota/ros2_ws/build/my_robot_config', 'env': OrderedDict([('LANGUAGE', 'en_US:'), ('USER', 'lota'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lota/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lota'), ('OLDPWD', '/home/lota/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('SYSTEMD_EXEC_PID', '3046'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lota/ros2_ws/install:/home/lota/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lota'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lota'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lota-virtual-machine:@/tmp/.ICE-unix/1967,unix/lota-virtual-machine:/tmp/.ICE-unix/1967'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d7bacb81_830e_43ca_b990_85ad42f32cb3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E9YLH3'), ('LS_COLORS', 'di=1;36:ln=1;33:ex=1;32:fi=0'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lota/ros2_ws/install/rplidar_ros:/home/lota/ros2_ws/install/my_robot_config:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/home/lota/install/rplidar_ros:/home/lota/install/my_robot_config:/home/lota/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lota/ros2_ws/build/my_robot_config'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lota/ros2_ws/build/imu_hwt911:/home/lota/ros2_ws/build/dual_lidar_tools:/home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages:/home/lota/ros2_ws/install/dual_lidar_tools/lib/python3.10/site-packages:/home/lota/install/rrt_planner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lota/ros2_ws/install/rplidar_ros:/home/lota/ros2_ws/install/my_robot_config:/home/lota/install/rplidar_ros:/home/lota/install/my_robot_config:/home/lota/install/dynamixel_sdk:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble')]), 'shell': False}
+[7.464630] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[7.477049] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[7.477783] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lota/ros2_ws/build/rplidar_ros', '--', '-j2', '-l2'], 'cwd': '/home/lota/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('LANGUAGE', 'en_US:'), ('USER', 'lota'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lota/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lota'), ('OLDPWD', '/home/lota/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('SYSTEMD_EXEC_PID', '3046'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lota/ros2_ws/install:/home/lota/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lota'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lota'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lota-virtual-machine:@/tmp/.ICE-unix/1967,unix/lota-virtual-machine:/tmp/.ICE-unix/1967'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d7bacb81_830e_43ca_b990_85ad42f32cb3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E9YLH3'), ('LS_COLORS', 'di=1;36:ln=1;33:ex=1;32:fi=0'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lota/ros2_ws/install/rplidar_ros:/home/lota/ros2_ws/install/my_robot_config:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/home/lota/install/rplidar_ros:/home/lota/install/my_robot_config:/home/lota/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lota/ros2_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lota/ros2_ws/build/imu_hwt911:/home/lota/ros2_ws/build/dual_lidar_tools:/home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages:/home/lota/ros2_ws/install/dual_lidar_tools/lib/python3.10/site-packages:/home/lota/install/rrt_planner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lota/ros2_ws/install/rplidar_ros:/home/lota/ros2_ws/install/my_robot_config:/home/lota/install/rplidar_ros:/home/lota/install/my_robot_config:/home/lota/install/dynamixel_sdk:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble')]), 'shell': False}
+[7.515325] (-) TimerEvent: {}
+[7.544183] (my_robot_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.553805] (my_robot_config) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.564255] (my_robot_config) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):\n'}
+[7.564861] (my_robot_config) StderrLine: {'line': b'  Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow\n'}
+[7.565355] (my_robot_config) StderrLine: {'line': b'  symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.\n'}
+[7.565652] (my_robot_config) StderrLine: {'line': b'  Use the cmake_policy command to set the policy and suppress this warning.\n'}
+[7.565877] (my_robot_config) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.566130] (my_robot_config) StderrLine: {'line': b'  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)\n'}
+[7.566353] (my_robot_config) StderrLine: {'line': b'  cmake_install.cmake:46 (include)\n'}
+[7.566574] (my_robot_config) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[7.581730] (my_robot_config) StderrLine: {'line': b'\x1b[0m\n'}
+[7.582770] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//launch/bringup_localization.launch.py\n'}
+[7.583287] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//launch/bringup_navigation.launch.py\n'}
+[7.583565] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//launch/dual_lidar_with_merge.launch.py\n'}
+[7.583712] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//launch/encoder_imu_odom.launch.py\n'}
+[7.583884] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//launch/slam_2lidar.launch.py\n'}
+[7.584063] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/amcl.yaml\n'}
+[7.584190] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/build/.built_by\n'}
+[7.584317] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/build/COLCON_IGNORE\n'}
+[7.584439] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/dual_lidar_merge.yaml\n'}
+[7.584589] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/.colcon_install_layout\n'}
+[7.592063] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/COLCON_IGNORE\n'}
+[7.592416] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/_local_setup_util_ps1.py\n'}
+[7.592557] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/_local_setup_util_sh.py\n'}
+[7.593133] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/local_setup.bash\n'}
+[7.593324] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/local_setup.ps1\n'}
+[7.593527] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/local_setup.sh\n'}
+[7.593604] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/local_setup.zsh\n'}
+[7.593694] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/setup.bash\n'}
+[7.594098] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/setup.ps1\n'}
+[7.594564] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/setup.sh\n'}
+[7.594725] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/setup.zsh\n'}
+[7.595008] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/COLCON_IGNORE\n'}
+[7.595207] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/build_2025-12-26_21-04-28/events.log\n'}
+[7.595473] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/build_2025-12-26_21-04-28/logger_all.log\n'}
+[7.597779] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/latest/events.log\n'}
+[7.597986] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/latest/logger_all.log\n'}
+[7.598142] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/latest_build/events.log\n'}
+[7.598323] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/latest_build/logger_all.log\n'}
+[7.598403] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/nav2_controller_only.yaml\n'}
+[7.598554] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/nav2_params.yaml\n'}
+[7.602959] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/odom_ekf.yaml\n'}
+[7.603212] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/slam_toolbox_merged.yaml\n'}
+[7.606821] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/lib/my_robot_config/imu_odom.py\n'}
+[7.611146] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/lib/my_robot_config/stm32_reader.py\n'}
+[7.612859] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/lib/my_robot_config/encoder_dep_trai.py\n'}
+[7.613130] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/lib/my_robot_config/wheel_tf_node.py\n'}
+[7.613363] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/ament_index/resource_index/package_run_dependencies/my_robot_config\n'}
+[7.618773] (-) TimerEvent: {}
+[7.620339] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/ament_index/resource_index/parent_prefix_path/my_robot_config\n'}
+[7.620784] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/environment/ament_prefix_path.sh\n'}
+[7.621038] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/environment/ament_prefix_path.dsv\n'}
+[7.621247] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/environment/path.sh\n'}
+[7.628363] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/environment/path.dsv\n'}
+[7.628708] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/local_setup.bash\n'}
+[7.628990] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/local_setup.sh\n'}
+[7.637225] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/local_setup.zsh\n'}
+[7.637748] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/local_setup.dsv\n'}
+[7.638039] (my_robot_config) StdoutLine: {'line': b'-- Symlinking: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/package.dsv\n'}
+[7.693406] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/ament_index/resource_index/packages/my_robot_config\n'}
+[7.700985] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/cmake/my_robot_configConfig.cmake\n'}
+[7.701520] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/cmake/my_robot_configConfig-version.cmake\n'}
+[7.701750] (my_robot_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/package.xml\n'}
+[7.722384] (my_robot_config) CommandEnded: {'returncode': 0}
+[7.726772] (-) TimerEvent: {}
+[7.828522] (my_robot_config) JobEnded: {'identifier': 'my_robot_config', 'rc': 0}
+[7.833598] (-) TimerEvent: {}
+[7.904922] (rplidar_ros) StdoutLine: {'line': b'[ 47%] Built target rplidar_node\n'}
+[7.935605] (-) TimerEvent: {}
+[8.021075] (rplidar_ros) StdoutLine: {'line': b'[ 94%] Built target rplidar_composition\n'}
+[8.035817] (-) TimerEvent: {}
+[8.108805] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_client\n'}
+[8.137125] (-) TimerEvent: {}
+[8.147237] (rplidar_ros) CommandEnded: {'returncode': 0}
+[8.148974] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[8.149089] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lota/ros2_ws/build/rplidar_ros'], 'cwd': '/home/lota/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('LANGUAGE', 'en_US:'), ('USER', 'lota'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lota/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lota'), ('OLDPWD', '/home/lota/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('SYSTEMD_EXEC_PID', '3046'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lota/ros2_ws/install:/home/lota/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lota'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lota'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lota-virtual-machine:@/tmp/.ICE-unix/1967,unix/lota-virtual-machine:/tmp/.ICE-unix/1967'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d7bacb81_830e_43ca_b990_85ad42f32cb3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E9YLH3'), ('LS_COLORS', 'di=1;36:ln=1;33:ex=1;32:fi=0'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lota/ros2_ws/install/rplidar_ros:/home/lota/ros2_ws/install/my_robot_config:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/home/lota/install/rplidar_ros:/home/lota/install/my_robot_config:/home/lota/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lota/ros2_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lota/ros2_ws/build/imu_hwt911:/home/lota/ros2_ws/build/dual_lidar_tools:/home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages:/home/lota/ros2_ws/install/dual_lidar_tools/lib/python3.10/site-packages:/home/lota/install/rrt_planner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lota/ros2_ws/install/rplidar_ros:/home/lota/ros2_ws/install/my_robot_config:/home/lota/install/rplidar_ros:/home/lota/install/my_robot_config:/home/lota/install/dynamixel_sdk:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble')]), 'shell': False}
+[8.192484] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.194498] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.195844] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[8.197615] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[8.197926] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[8.199163] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[8.199347] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[8.199474] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[8.200865] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[8.201047] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[8.201183] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[8.201884] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[8.202007] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[8.204561] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[8.204741] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[8.204866] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[8.204992] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[8.205117] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[8.205240] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[8.205367] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[8.205507] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[8.205632] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[8.208797] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[8.208939] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[8.209398] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[8.210025] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[8.210258] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[8.212966] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[8.213317] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[8.213471] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[8.213665] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[8.213795] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[8.213917] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[8.214044] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[8.214162] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[8.214281] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[8.214403] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[8.214524] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[8.214680] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[8.214800] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[8.219138] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[8.237522] (-) TimerEvent: {}
+[8.240474] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[8.241131] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.241391] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.245476] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[8.245976] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[8.246259] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[8.250787] (rplidar_ros) CommandEnded: {'returncode': 0}
+[8.310919] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[8.312312] (-) EventReactorShutdown: {}

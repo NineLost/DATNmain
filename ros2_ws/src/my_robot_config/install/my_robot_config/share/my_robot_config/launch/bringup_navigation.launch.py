@@ -1,0 +1,1 @@
+/home/lota/ros2_ws/src/my_robot_config/launch/bringup_navigation.launch.py

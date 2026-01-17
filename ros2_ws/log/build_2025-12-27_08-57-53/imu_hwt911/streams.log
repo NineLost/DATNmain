@@ -1,0 +1,32 @@
+[2.630s] Invoking command in '/home/lota/ros2_ws/build/imu_hwt911': PYTHONPATH=/home/lota/ros2_ws/build/imu_hwt911/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/lota/ros2_ws/build/imu_hwt911/build
+[3.775s] running develop
+[4.710s] Removing /home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages/imu-hwt911.egg-link (link to .)
+[4.925s] Invoked command in '/home/lota/ros2_ws/build/imu_hwt911' returned '0': PYTHONPATH=/home/lota/ros2_ws/build/imu_hwt911/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/lota/ros2_ws/build/imu_hwt911/build
+[4.932s] Invoking command in '/home/lota/ros2_ws/src/imu_hwt911': PYTHONPATH=/home/lota/ros2_ws/build/imu_hwt911/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_hwt911 build --build-base /home/lota/ros2_ws/build/imu_hwt911/build install --record /home/lota/ros2_ws/build/imu_hwt911/install.log --single-version-externally-managed install_data --force
+[6.145s] running egg_info
+[6.148s] writing ../../build/imu_hwt911/imu_hwt911.egg-info/PKG-INFO
+[6.151s] writing dependency_links to ../../build/imu_hwt911/imu_hwt911.egg-info/dependency_links.txt
+[6.162s] writing entry points to ../../build/imu_hwt911/imu_hwt911.egg-info/entry_points.txt
+[6.163s] writing requirements to ../../build/imu_hwt911/imu_hwt911.egg-info/requires.txt
+[6.163s] writing top-level names to ../../build/imu_hwt911/imu_hwt911.egg-info/top_level.txt
+[6.179s] reading manifest file '../../build/imu_hwt911/imu_hwt911.egg-info/SOURCES.txt'
+[6.179s] writing manifest file '../../build/imu_hwt911/imu_hwt911.egg-info/SOURCES.txt'
+[6.179s] running build
+[6.179s] running build_py
+[6.188s] running install
+[6.188s] running install_lib
+[6.188s] creating /home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages/imu_hwt911
+[6.199s] copying /home/lota/ros2_ws/build/imu_hwt911/build/lib/imu_hwt911/hwt911_node.py -> /home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages/imu_hwt911
+[6.199s] copying /home/lota/ros2_ws/build/imu_hwt911/build/lib/imu_hwt911/__init__.py -> /home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages/imu_hwt911
+[6.199s] byte-compiling /home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages/imu_hwt911/hwt911_node.py to hwt911_node.cpython-310.pyc
+[6.215s] byte-compiling /home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages/imu_hwt911/__init__.py to __init__.cpython-310.pyc
+[6.222s] running install_data
+[6.223s] copying resource/imu_hwt911 -> /home/lota/ros2_ws/install/imu_hwt911/share/ament_index/resource_index/packages
+[6.223s] copying package.xml -> /home/lota/ros2_ws/install/imu_hwt911/share/imu_hwt911
+[6.223s] copying launch/imu_bringup.launch.py -> /home/lota/ros2_ws/install/imu_hwt911/share/imu_hwt911/launch
+[6.223s] running install_egg_info
+[6.247s] Copying ../../build/imu_hwt911/imu_hwt911.egg-info to /home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages/imu_hwt911-0.0.1-py3.10.egg-info
+[6.253s] running install_scripts
+[6.419s] Installing hwt911_node script to /home/lota/ros2_ws/install/imu_hwt911/lib/imu_hwt911
+[6.419s] writing list of installed files to '/home/lota/ros2_ws/build/imu_hwt911/install.log'
+[6.653s] Invoked command in '/home/lota/ros2_ws/src/imu_hwt911' returned '0': PYTHONPATH=/home/lota/ros2_ws/build/imu_hwt911/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_hwt911 build --build-base /home/lota/ros2_ws/build/imu_hwt911/build install --record /home/lota/ros2_ws/build/imu_hwt911/install.log --single-version-externally-managed install_data --force

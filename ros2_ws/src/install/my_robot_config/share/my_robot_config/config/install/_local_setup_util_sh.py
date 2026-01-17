@@ -1,0 +1,1 @@
+/home/lota/ros2_ws/src/my_robot_config/config/install/_local_setup_util_sh.py

@@ -1,0 +1,67 @@
+[0.016s] Invoking command in '/home/lota/ros2_ws/src/my_robot_config/build/my_robot_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/opt/ros/humble /usr/bin/cmake /home/lota/ros2_ws/src/my_robot_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lota/ros2_ws/src/my_robot_config/install/my_robot_config
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.151s] -- The CXX compiler identification is GNU 11.4.0
+[0.159s] -- Detecting C compiler ABI info
+[0.240s] -- Detecting C compiler ABI info - done
+[0.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.250s] -- Detecting C compile features - done
+[0.253s] -- Detecting CXX compiler ABI info
+[0.336s] -- Detecting CXX compiler ABI info - done
+[0.343s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.344s] -- Detecting CXX compile features
+[0.344s] -- Detecting CXX compile features - done
+[0.346s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.504s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.572s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.696s] -- Configuring done
+[0.703s] -- Generating done
+[0.707s] -- Build files have been written to: /home/lota/ros2_ws/src/my_robot_config/build/my_robot_config
+[0.710s] Invoked command in '/home/lota/ros2_ws/src/my_robot_config/build/my_robot_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/opt/ros/humble /usr/bin/cmake /home/lota/ros2_ws/src/my_robot_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lota/ros2_ws/src/my_robot_config/install/my_robot_config
+[0.713s] Invoking command in '/home/lota/ros2_ws/src/my_robot_config/build/my_robot_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/opt/ros/humble /usr/bin/cmake --build /home/lota/ros2_ws/src/my_robot_config/build/my_robot_config -- -j2 -l2
+[0.756s] Invoked command in '/home/lota/ros2_ws/src/my_robot_config/build/my_robot_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/opt/ros/humble /usr/bin/cmake --build /home/lota/ros2_ws/src/my_robot_config/build/my_robot_config -- -j2 -l2
+[0.770s] Invoking command in '/home/lota/ros2_ws/src/my_robot_config/build/my_robot_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/opt/ros/humble /usr/bin/cmake --install /home/lota/ros2_ws/src/my_robot_config/build/my_robot_config
+[0.778s] -- Install configuration: ""
+[0.779s] -- Execute custom install script
+[0.780s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//launch/dual_lidar.launch.py
+[0.790s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//launch/dual_lidar_merge.launch.py
+[0.798s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//launch/dual_lidar_slam.launch.py
+[0.809s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//launch/dual_lidar_with_merge.launch.py
+[0.823s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//launch/encoder_imu_odom.launch.py
+[0.830s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//launch/imu.launch.py
+[0.840s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//launch/imu_odom.launch.py
+[0.848s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//launch/imu_rviz.launch.py
+[0.857s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//launch/lidar_front.launch.py
+[0.870s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//launch/lidar_merge.launch.py
+[0.879s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//launch/lidar_rear.launch.py
+[0.889s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//launch/lidar_tf.launch.py
+[0.898s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//launch/slam_2lidar.launch.py
+[0.907s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//launch/slam_launch.py
+[0.917s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//launch/static_slam_with_merged.launch.py
+[0.925s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//config/dual_lidar_merge.yaml
+[0.935s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//config/imu.yaml
+[0.943s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//config/lidar_front.yaml
+[0.954s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//config/lidar_rear.yaml
+[0.966s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//config/slam_config.yaml
+[0.975s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config//config/slam_toolbox_merged.yaml
+[0.985s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/lib/my_robot_config/imu_odom.py
+[0.994s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/lib/my_robot_config/encoder_odom.py
+[1.005s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/lib/my_robot_config/odom_fusion.py
+[1.016s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/lib/my_robot_config/wheel_tf_node.py
+[1.023s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/lib/my_robot_config/wheel_rotation_tf.py
+[1.031s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/ament_index/resource_index/package_run_dependencies/my_robot_config
+[1.042s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/ament_index/resource_index/parent_prefix_path/my_robot_config
+[1.050s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config/environment/ament_prefix_path.sh
+[1.060s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config/environment/ament_prefix_path.dsv
+[1.067s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config/environment/path.sh
+[1.078s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config/environment/path.dsv
+[1.087s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config/local_setup.bash
+[1.095s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config/local_setup.sh
+[1.103s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config/local_setup.zsh
+[1.112s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config/local_setup.dsv
+[1.120s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config/package.dsv
+[1.130s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/ament_index/resource_index/packages/my_robot_config
+[1.141s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config/cmake/my_robot_configConfig.cmake
+[1.148s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config/cmake/my_robot_configConfig-version.cmake
+[1.156s] -- Symlinking: /home/lota/ros2_ws/src/my_robot_config/install/my_robot_config/share/my_robot_config/package.xml
+[1.170s] Invoked command in '/home/lota/ros2_ws/src/my_robot_config/build/my_robot_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/opt/ros/humble /usr/bin/cmake --install /home/lota/ros2_ws/src/my_robot_config/build/my_robot_config

@@ -1,0 +1,1 @@
+/home/lota/ros2_ws/src/my_robot_config/launch/static_slam_with_merged.launch.py

@@ -1,0 +1,78 @@
+[0.049s] Invoking command in '/home/lota/ros2_ws/build/my_robot_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble /usr/bin/cmake /home/lota/ros2_ws/src/my_robot_config -DCMAKE_INSTALL_PREFIX=/home/lota/ros2_ws/install/my_robot_config
+[0.230s] -- The C compiler identification is GNU 11.4.0
+[0.304s] -- The CXX compiler identification is GNU 11.4.0
+[0.314s] -- Detecting C compiler ABI info
+[0.397s] -- Detecting C compiler ABI info - done
+[0.406s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.406s] -- Detecting C compile features
+[0.406s] -- Detecting C compile features - done
+[0.409s] -- Detecting CXX compiler ABI info
+[0.521s] -- Detecting CXX compiler ABI info - done
+[0.527s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.527s] -- Detecting CXX compile features
+[0.527s] -- Detecting CXX compile features - done
+[0.528s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.725s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.890s] -- Configuring done
+[0.897s] -- Generating done
+[0.897s] -- Build files have been written to: /home/lota/ros2_ws/build/my_robot_config
+[0.900s] Invoked command in '/home/lota/ros2_ws/build/my_robot_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble /usr/bin/cmake /home/lota/ros2_ws/src/my_robot_config -DCMAKE_INSTALL_PREFIX=/home/lota/ros2_ws/install/my_robot_config
+[0.901s] Invoking command in '/home/lota/ros2_ws/build/my_robot_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble /usr/bin/cmake --build /home/lota/ros2_ws/build/my_robot_config -- -j2 -l2
+[0.977s] Invoked command in '/home/lota/ros2_ws/build/my_robot_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble /usr/bin/cmake --build /home/lota/ros2_ws/build/my_robot_config -- -j2 -l2
+[0.998s] Invoking command in '/home/lota/ros2_ws/build/my_robot_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble /usr/bin/cmake --install /home/lota/ros2_ws/build/my_robot_config
+[1.021s] -- Install configuration: ""
+[1.022s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//launch
+[1.024s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//launch/bringup_navigation.launch.py
+[1.024s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//launch/encoder_imu_odom.launch.py
+[1.024s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//launch/dual_lidar_with_merge.launch.py
+[1.024s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//launch/bringup_localization.launch.py
+[1.024s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//launch/slam_2lidar.launch.py
+[1.024s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config
+[1.024s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install
+[1.024s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/setup.ps1
+[1.024s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/setup.sh
+[1.024s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/local_setup.bash
+[1.024s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/setup.zsh
+[1.027s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/local_setup.zsh
+[1.027s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/setup.bash
+[1.028s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/_local_setup_util_sh.py
+[1.028s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/local_setup.ps1
+[1.028s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/_local_setup_util_ps1.py
+[1.028s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/COLCON_IGNORE
+[1.028s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/.colcon_install_layout
+[1.028s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/local_setup.sh
+[1.029s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/odom_ekf.yaml
+[1.030s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/slam_toolbox_merged.yaml
+[1.032s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/amcl.yaml
+[1.032s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/nav2_params.yaml
+[1.032s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log
+[1.032s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/build_2025-12-26_21-04-28
+[1.032s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/build_2025-12-26_21-04-28/logger_all.log
+[1.032s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/build_2025-12-26_21-04-28/events.log
+[1.032s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/latest
+[1.032s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/latest_build
+[1.032s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/COLCON_IGNORE
+[1.032s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/build
+[1.032s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/build/.built_by
+[1.032s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/build/COLCON_IGNORE
+[1.032s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/dual_lidar_merge.yaml
+[1.032s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/lib/my_robot_config/imu_odom.py
+[1.032s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/lib/my_robot_config/stm32_reader.py
+[1.032s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/lib/my_robot_config/encoder_dep_trai.py
+[1.032s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/lib/my_robot_config/wheel_tf_node.py
+[1.033s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/ament_index/resource_index/package_run_dependencies/my_robot_config
+[1.033s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/ament_index/resource_index/parent_prefix_path/my_robot_config
+[1.040s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/environment/ament_prefix_path.sh
+[1.040s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/environment/ament_prefix_path.dsv
+[1.040s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/environment/path.sh
+[1.040s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/environment/path.dsv
+[1.041s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/local_setup.bash
+[1.041s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/local_setup.sh
+[1.041s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/local_setup.zsh
+[1.041s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/local_setup.dsv
+[1.041s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/package.dsv
+[1.041s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/ament_index/resource_index/packages/my_robot_config
+[1.041s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/cmake/my_robot_configConfig.cmake
+[1.041s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/cmake/my_robot_configConfig-version.cmake
+[1.041s] -- Installing: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/package.xml
+[1.047s] Invoked command in '/home/lota/ros2_ws/build/my_robot_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble /usr/bin/cmake --install /home/lota/ros2_ws/build/my_robot_config

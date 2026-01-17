@@ -1,0 +1,17 @@
+[1.783s] Invoking command in '/home/lota/ros2_ws/build/dual_lidar_tools': PYTHONPATH=/home/lota/ros2_ws/build/dual_lidar_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lota/ros2_ws/install/dual_lidar_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lota/ros2_ws/build/dual_lidar_tools/build --no-deps symlink_data
+[2.462s] running develop
+[3.287s] running egg_info
+[3.287s] writing dual_lidar_tools.egg-info/PKG-INFO
+[3.288s] writing dependency_links to dual_lidar_tools.egg-info/dependency_links.txt
+[3.291s] writing entry points to dual_lidar_tools.egg-info/entry_points.txt
+[3.291s] writing requirements to dual_lidar_tools.egg-info/requires.txt
+[3.291s] writing top-level names to dual_lidar_tools.egg-info/top_level.txt
+[3.297s] reading manifest file 'dual_lidar_tools.egg-info/SOURCES.txt'
+[3.302s] writing manifest file 'dual_lidar_tools.egg-info/SOURCES.txt'
+[3.307s] running build_ext
+[3.307s] Creating /home/lota/ros2_ws/install/dual_lidar_tools/lib/python3.10/site-packages/dual-lidar-tools.egg-link (link to .)
+[3.316s] Installing dual_lidar_merger script to /home/lota/ros2_ws/install/dual_lidar_tools/lib/dual_lidar_tools
+[3.316s] 
+[3.322s] Installed /home/lota/ros2_ws/build/dual_lidar_tools
+[3.323s] running symlink_data
+[3.477s] Invoked command in '/home/lota/ros2_ws/build/dual_lidar_tools' returned '0': PYTHONPATH=/home/lota/ros2_ws/build/dual_lidar_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lota/ros2_ws/install/dual_lidar_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lota/ros2_ws/build/dual_lidar_tools/build --no-deps symlink_data

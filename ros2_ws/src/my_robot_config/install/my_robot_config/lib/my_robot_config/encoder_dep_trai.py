@@ -1,0 +1,1 @@
+/home/lota/ros2_ws/src/my_robot_config/scripts/encoder_dep_trai.py

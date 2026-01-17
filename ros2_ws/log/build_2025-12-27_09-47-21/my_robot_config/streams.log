@@ -1,0 +1,66 @@
+[0.051s] Invoking command in '/home/lota/ros2_ws/build/my_robot_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble /usr/bin/cmake --build /home/lota/ros2_ws/build/my_robot_config -- -j2 -l2
+[0.296s] Invoked command in '/home/lota/ros2_ws/build/my_robot_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble /usr/bin/cmake --build /home/lota/ros2_ws/build/my_robot_config -- -j2 -l2
+[0.316s] Invoking command in '/home/lota/ros2_ws/build/my_robot_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble /usr/bin/cmake --install /home/lota/ros2_ws/build/my_robot_config
+[0.335s] -- Install configuration: ""
+[0.337s] -- Execute custom install script
+[0.339s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//launch/bringup_localization.launch.py
+[0.339s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//launch/bringup_navigation.launch.py
+[0.339s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//launch/dual_lidar_with_merge.launch.py
+[0.339s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//launch/encoder_imu_odom.launch.py
+[0.340s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//launch/slam_2lidar.launch.py
+[0.342s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[0.342s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[0.342s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[0.342s]   Use the cmake_policy command to set the policy and suppress this warning.
+[0.342s] Call Stack (most recent call first):
+[0.342s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.342s]   cmake_install.cmake:46 (include)
+[0.342s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.346s] [0m
+[0.346s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/amcl.yaml
+[0.347s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/build/.built_by
+[0.347s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/build/COLCON_IGNORE
+[0.348s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/dual_lidar_merge.yaml
+[0.349s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/.colcon_install_layout
+[0.349s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/COLCON_IGNORE
+[0.349s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/_local_setup_util_ps1.py
+[0.349s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/_local_setup_util_sh.py
+[0.349s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/local_setup.bash
+[0.349s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/local_setup.ps1
+[0.349s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/local_setup.sh
+[0.349s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/local_setup.zsh
+[0.349s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/setup.bash
+[0.355s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/setup.ps1
+[0.355s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/setup.sh
+[0.355s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/install/setup.zsh
+[0.358s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/COLCON_IGNORE
+[0.358s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/build_2025-12-26_21-04-28/events.log
+[0.364s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/build_2025-12-26_21-04-28/logger_all.log
+[0.364s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/latest/events.log
+[0.364s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/latest/logger_all.log
+[0.364s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/latest_build/events.log
+[0.364s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/log/latest_build/logger_all.log
+[0.364s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/nav2_controller_only.yaml
+[0.364s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/nav2_params.yaml
+[0.364s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/odom_ekf.yaml
+[0.364s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config//config/slam_toolbox_merged.yaml
+[0.364s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/lib/my_robot_config/imu_odom.py
+[0.364s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/lib/my_robot_config/stm32_reader.py
+[0.364s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/lib/my_robot_config/encoder_dep_trai.py
+[0.365s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/lib/my_robot_config/wheel_tf_node.py
+[0.372s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/ament_index/resource_index/package_run_dependencies/my_robot_config
+[0.372s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/ament_index/resource_index/parent_prefix_path/my_robot_config
+[0.377s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/environment/ament_prefix_path.sh
+[0.377s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/environment/ament_prefix_path.dsv
+[0.377s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/environment/path.sh
+[0.377s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/environment/path.dsv
+[0.378s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/local_setup.bash
+[0.378s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/local_setup.sh
+[0.378s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/local_setup.zsh
+[0.380s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/local_setup.dsv
+[0.380s] -- Symlinking: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/package.dsv
+[0.421s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/ament_index/resource_index/packages/my_robot_config
+[0.421s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/cmake/my_robot_configConfig.cmake
+[0.425s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/cmake/my_robot_configConfig-version.cmake
+[0.425s] -- Up-to-date symlink: /home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/package.xml
+[0.430s] Invoked command in '/home/lota/ros2_ws/build/my_robot_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble /usr/bin/cmake --install /home/lota/ros2_ws/build/my_robot_config

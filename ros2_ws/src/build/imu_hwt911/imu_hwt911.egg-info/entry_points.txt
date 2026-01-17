@@ -1,0 +1,3 @@
+[console_scripts]
+hwt911_node = imu_hwt911.hwt911_node:main
+

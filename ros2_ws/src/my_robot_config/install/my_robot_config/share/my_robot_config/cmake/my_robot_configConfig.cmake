@@ -1,0 +1,1 @@
+/home/lota/ros2_ws/src/my_robot_config/build/my_robot_config/ament_cmake_core/my_robot_configConfig.cmake

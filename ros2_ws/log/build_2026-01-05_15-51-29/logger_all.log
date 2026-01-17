@@ -1,0 +1,323 @@
+[0.286s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.286s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71d59dd6e7d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71d59dd6e1d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71d59dd6e1d0>>)
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.786s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lota/ros2_ws'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/dual_lidar_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/dual_lidar_tools) by extension 'ignore'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/dual_lidar_tools) by extension 'ignore_ament_install'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/dual_lidar_tools) by extensions ['colcon_pkg']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/dual_lidar_tools) by extension 'colcon_pkg'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/dual_lidar_tools) by extensions ['colcon_meta']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/dual_lidar_tools) by extension 'colcon_meta'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/dual_lidar_tools) by extensions ['ros']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/dual_lidar_tools) by extension 'ros'
+[0.835s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dual_lidar_tools' with type 'ros.ament_python' and name 'dual_lidar_tools'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_hwt911) by extensions ['ignore', 'ignore_ament_install']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_hwt911) by extension 'ignore'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_hwt911) by extension 'ignore_ament_install'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_hwt911) by extensions ['colcon_pkg']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_hwt911) by extension 'colcon_pkg'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_hwt911) by extensions ['colcon_meta']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_hwt911) by extension 'colcon_meta'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_hwt911) by extensions ['ros']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_hwt911) by extension 'ros'
+[0.858s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_hwt911' with type 'ros.ament_python' and name 'imu_hwt911'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_config) by extensions ['ignore', 'ignore_ament_install']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_config) by extension 'ignore'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_config) by extension 'ignore_ament_install'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_config) by extensions ['colcon_pkg']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_config) by extension 'colcon_pkg'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_config) by extensions ['colcon_meta']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_config) by extension 'colcon_meta'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_config) by extensions ['ros']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_config) by extension 'ros'
+[0.862s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_config' with type 'ros.ament_cmake' and name 'my_robot_config'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[0.866s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.923s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.923s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.928s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/lota/ros2_ws/install
+[0.930s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/lota/install
+[0.935s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 491 installed packages in /opt/ros/humble
+[0.943s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'dual_lidar_tools' build argument 'cmake_args' from command line to 'None'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'dual_lidar_tools' build argument 'cmake_target' from command line to 'None'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'dual_lidar_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'dual_lidar_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'dual_lidar_tools' build argument 'cmake_clean_first' from command line to 'False'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'dual_lidar_tools' build argument 'cmake_force_configure' from command line to 'False'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'dual_lidar_tools' build argument 'ament_cmake_args' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'dual_lidar_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'dual_lidar_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.165s] DEBUG:colcon.colcon_core.verb:Building package 'dual_lidar_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lota/ros2_ws/build/dual_lidar_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lota/ros2_ws/install/dual_lidar_tools', 'merge_install': False, 'path': '/home/lota/ros2_ws/src/dual_lidar_tools', 'symlink_install': True, 'test_result_base': None}
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'imu_hwt911' build argument 'cmake_args' from command line to 'None'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'imu_hwt911' build argument 'cmake_target' from command line to 'None'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'imu_hwt911' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'imu_hwt911' build argument 'cmake_clean_cache' from command line to 'False'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'imu_hwt911' build argument 'cmake_clean_first' from command line to 'False'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'imu_hwt911' build argument 'cmake_force_configure' from command line to 'False'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'imu_hwt911' build argument 'ament_cmake_args' from command line to 'None'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'imu_hwt911' build argument 'catkin_cmake_args' from command line to 'None'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'imu_hwt911' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.166s] DEBUG:colcon.colcon_core.verb:Building package 'imu_hwt911' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lota/ros2_ws/build/imu_hwt911', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lota/ros2_ws/install/imu_hwt911', 'merge_install': False, 'path': '/home/lota/ros2_ws/src/imu_hwt911', 'symlink_install': True, 'test_result_base': None}
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'my_robot_config' build argument 'cmake_args' from command line to 'None'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'my_robot_config' build argument 'cmake_target' from command line to 'None'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'my_robot_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'my_robot_config' build argument 'cmake_clean_cache' from command line to 'False'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'my_robot_config' build argument 'cmake_clean_first' from command line to 'False'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'my_robot_config' build argument 'cmake_force_configure' from command line to 'False'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'my_robot_config' build argument 'ament_cmake_args' from command line to 'None'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'my_robot_config' build argument 'catkin_cmake_args' from command line to 'None'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'my_robot_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.168s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lota/ros2_ws/build/my_robot_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lota/ros2_ws/install/my_robot_config', 'merge_install': False, 'path': '/home/lota/ros2_ws/src/my_robot_config', 'symlink_install': True, 'test_result_base': None}
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[1.169s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.169s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.169s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.169s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.169s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.169s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.169s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.169s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lota/ros2_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lota/ros2_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/lota/ros2_ws/src/rplidar_ros', 'symlink_install': True, 'test_result_base': None}
+[1.169s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.173s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.173s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lota/ros2_ws/src/dual_lidar_tools' with build type 'ament_python'
+[1.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('dual_lidar_tools', 'ament_prefix_path')
+[1.182s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/install/dual_lidar_tools/share/dual_lidar_tools/hook/ament_prefix_path.ps1'
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lota/ros2_ws/install/dual_lidar_tools/share/dual_lidar_tools/hook/ament_prefix_path.dsv'
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/install/dual_lidar_tools/share/dual_lidar_tools/hook/ament_prefix_path.sh'
+[1.191s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.192s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.212s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lota/ros2_ws/src/imu_hwt911' with build type 'ament_python'
+[1.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_hwt911', 'ament_prefix_path')
+[1.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/install/imu_hwt911/share/imu_hwt911/hook/ament_prefix_path.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lota/ros2_ws/install/imu_hwt911/share/imu_hwt911/hook/ament_prefix_path.dsv'
+[1.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/install/imu_hwt911/share/imu_hwt911/hook/ament_prefix_path.sh'
+[1.224s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.224s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.169s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lota/ros2_ws/src/dual_lidar_tools'
+[2.170s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.170s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.040s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lota/ros2_ws/src/imu_hwt911'
+[3.041s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.041s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lota/ros2_ws/build/dual_lidar_tools': PYTHONPATH=/home/lota/ros2_ws/build/dual_lidar_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lota/ros2_ws/install/dual_lidar_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lota/ros2_ws/build/dual_lidar_tools/build --no-deps symlink_data
+[5.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lota/ros2_ws/build/imu_hwt911': PYTHONPATH=/home/lota/ros2_ws/build/imu_hwt911/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lota/ros2_ws/build/imu_hwt911/build --no-deps symlink_data
+[7.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('dual_lidar_tools', 'pythonpath_develop')
+[7.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/build/dual_lidar_tools/share/dual_lidar_tools/hook/pythonpath_develop.ps1'
+[7.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lota/ros2_ws/build/dual_lidar_tools' returned '0': PYTHONPATH=/home/lota/ros2_ws/build/dual_lidar_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lota/ros2_ws/install/dual_lidar_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lota/ros2_ws/build/dual_lidar_tools/build --no-deps symlink_data
+[7.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lota/ros2_ws/build/dual_lidar_tools/share/dual_lidar_tools/hook/pythonpath_develop.dsv'
+[7.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/build/dual_lidar_tools/share/dual_lidar_tools/hook/pythonpath_develop.sh'
+[7.709s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/dual_lidar_tools' for CMake module files
+[7.710s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/dual_lidar_tools' for CMake config files
+[7.715s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/dual_lidar_tools/lib'
+[7.719s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/dual_lidar_tools/bin'
+[7.722s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/dual_lidar_tools/lib/pkgconfig/dual_lidar_tools.pc'
+[7.723s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/dual_lidar_tools/lib/python3.10/site-packages'
+[7.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('dual_lidar_tools', 'pythonpath')
+[7.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/install/dual_lidar_tools/share/dual_lidar_tools/hook/pythonpath.ps1'
+[7.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lota/ros2_ws/install/dual_lidar_tools/share/dual_lidar_tools/hook/pythonpath.dsv'
+[7.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/install/dual_lidar_tools/share/dual_lidar_tools/hook/pythonpath.sh'
+[7.750s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/dual_lidar_tools/bin'
+[7.751s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dual_lidar_tools)
+[7.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/dual_lidar_tools/share/dual_lidar_tools/package.ps1'
+[7.756s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lota/ros2_ws/install/dual_lidar_tools/share/dual_lidar_tools/package.dsv'
+[7.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/dual_lidar_tools/share/dual_lidar_tools/package.sh'
+[7.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/dual_lidar_tools/share/dual_lidar_tools/package.bash'
+[7.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/dual_lidar_tools/share/dual_lidar_tools/package.zsh'
+[7.775s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lota/ros2_ws/install/dual_lidar_tools/share/colcon-core/packages/dual_lidar_tools)
+[7.777s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lota/ros2_ws/src/my_robot_config' with build type 'ament_cmake'
+[7.780s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lota/ros2_ws/src/my_robot_config'
+[7.782s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.783s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lota/ros2_ws/build/my_robot_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble /usr/bin/cmake --build /home/lota/ros2_ws/build/my_robot_config -- -j2 -l2
+[8.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lota/ros2_ws/build/my_robot_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble /usr/bin/cmake --build /home/lota/ros2_ws/build/my_robot_config -- -j2 -l2
+[8.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lota/ros2_ws/build/my_robot_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble /usr/bin/cmake --install /home/lota/ros2_ws/build/my_robot_config
+[8.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_hwt911', 'pythonpath_develop')
+[8.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/build/imu_hwt911/share/imu_hwt911/hook/pythonpath_develop.ps1'
+[8.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lota/ros2_ws/build/imu_hwt911' returned '0': PYTHONPATH=/home/lota/ros2_ws/build/imu_hwt911/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lota/ros2_ws/build/imu_hwt911/build --no-deps symlink_data
+[8.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lota/ros2_ws/build/imu_hwt911/share/imu_hwt911/hook/pythonpath_develop.dsv'
+[8.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/build/imu_hwt911/share/imu_hwt911/hook/pythonpath_develop.sh'
+[8.455s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/imu_hwt911' for CMake module files
+[8.457s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/imu_hwt911' for CMake config files
+[8.461s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/imu_hwt911/lib'
+[8.462s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/imu_hwt911/bin'
+[8.462s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/imu_hwt911/lib/pkgconfig/imu_hwt911.pc'
+[8.463s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/imu_hwt911/lib/python3.10/site-packages'
+[8.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_hwt911', 'pythonpath')
+[8.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/install/imu_hwt911/share/imu_hwt911/hook/pythonpath.ps1'
+[8.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lota/ros2_ws/install/imu_hwt911/share/imu_hwt911/hook/pythonpath.dsv'
+[8.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/install/imu_hwt911/share/imu_hwt911/hook/pythonpath.sh'
+[8.471s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/imu_hwt911/bin'
+[8.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_hwt911)
+[8.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/imu_hwt911/share/imu_hwt911/package.ps1'
+[8.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lota/ros2_ws/install/imu_hwt911/share/imu_hwt911/package.dsv'
+[8.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/imu_hwt911/share/imu_hwt911/package.sh'
+[8.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/imu_hwt911/share/imu_hwt911/package.bash'
+[8.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/imu_hwt911/share/imu_hwt911/package.zsh'
+[8.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lota/ros2_ws/install/imu_hwt911/share/colcon-core/packages/imu_hwt911)
+[8.484s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lota/ros2_ws/src/rplidar_ros' with build type 'ament_cmake'
+[8.485s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lota/ros2_ws/src/rplidar_ros'
+[8.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.570s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_config)
+[8.575s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/my_robot_config' for CMake module files
+[8.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lota/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble /usr/bin/cmake --build /home/lota/ros2_ws/build/rplidar_ros -- -j2 -l2
+[8.580s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/my_robot_config' for CMake config files
+[8.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_config', 'cmake_prefix_path')
+[8.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lota/ros2_ws/build/my_robot_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble /usr/bin/cmake --install /home/lota/ros2_ws/build/my_robot_config
+[8.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/hook/cmake_prefix_path.ps1'
+[8.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/hook/cmake_prefix_path.dsv'
+[8.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/hook/cmake_prefix_path.sh'
+[8.599s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/my_robot_config/lib'
+[8.600s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/my_robot_config/bin'
+[8.600s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/my_robot_config/lib/pkgconfig/my_robot_config.pc'
+[8.601s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/my_robot_config/lib/python3.10/site-packages'
+[8.602s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/my_robot_config/bin'
+[8.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/package.ps1'
+[8.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/package.dsv'
+[8.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/package.sh'
+[8.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/package.bash'
+[8.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/package.zsh'
+[8.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lota/ros2_ws/install/my_robot_config/share/colcon-core/packages/my_robot_config)
+[8.620s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_config)
+[8.621s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/my_robot_config' for CMake module files
+[8.624s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/my_robot_config' for CMake config files
+[8.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_config', 'cmake_prefix_path')
+[8.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/hook/cmake_prefix_path.ps1'
+[8.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/hook/cmake_prefix_path.dsv'
+[8.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/hook/cmake_prefix_path.sh'
+[8.641s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/my_robot_config/lib'
+[8.641s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/my_robot_config/bin'
+[8.641s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/my_robot_config/lib/pkgconfig/my_robot_config.pc'
+[8.642s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/my_robot_config/lib/python3.10/site-packages'
+[8.643s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/my_robot_config/bin'
+[8.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/package.ps1'
+[8.648s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/package.dsv'
+[8.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/package.sh'
+[8.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/package.bash'
+[8.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/my_robot_config/share/my_robot_config/package.zsh'
+[8.663s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lota/ros2_ws/install/my_robot_config/share/colcon-core/packages/my_robot_config)
+[9.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lota/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble /usr/bin/cmake --build /home/lota/ros2_ws/build/rplidar_ros -- -j2 -l2
+[9.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lota/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble /usr/bin/cmake --install /home/lota/ros2_ws/build/rplidar_ros
+[9.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[9.180s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/rplidar_ros' for CMake module files
+[9.181s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/rplidar_ros' for CMake config files
+[9.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lota/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lota/ros2_ws/install/imu_hwt911:/home/lota/ros2_ws/install/dual_lidar_tools:/home/lota/install/rrt_planner:/opt/ros/humble /usr/bin/cmake --install /home/lota/ros2_ws/build/rplidar_ros
+[9.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[9.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[9.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[9.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[9.187s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/rplidar_ros/lib'
+[9.187s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/rplidar_ros/bin'
+[9.187s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[9.188s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[9.190s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/rplidar_ros/bin'
+[9.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[9.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[9.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[9.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[9.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[9.196s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lota/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[9.197s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[9.198s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/rplidar_ros' for CMake module files
+[9.199s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/rplidar_ros' for CMake config files
+[9.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[9.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[9.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[9.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[9.205s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/rplidar_ros/lib'
+[9.206s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/rplidar_ros/bin'
+[9.206s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[9.206s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[9.207s] Level 1:colcon.colcon_core.environment:checking '/home/lota/ros2_ws/install/rplidar_ros/bin'
+[9.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[9.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[9.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[9.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[9.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/lota/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[9.225s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lota/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[9.227s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.228s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.230s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.230s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.254s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.254s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.255s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.314s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.314s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lota/ros2_ws/install/local_setup.ps1'
+[9.318s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lota/ros2_ws/install/_local_setup_util_ps1.py'
+[9.323s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lota/ros2_ws/install/setup.ps1'
+[9.327s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lota/ros2_ws/install/local_setup.sh'
+[9.329s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lota/ros2_ws/install/_local_setup_util_sh.py'
+[9.331s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lota/ros2_ws/install/setup.sh'
+[9.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lota/ros2_ws/install/local_setup.bash'
+[9.341s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lota/ros2_ws/install/setup.bash'
+[9.347s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lota/ros2_ws/install/local_setup.zsh'
+[9.350s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lota/ros2_ws/install/setup.zsh'
